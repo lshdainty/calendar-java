@@ -8,7 +8,7 @@ import java.util.Map;
 public class firstController {
     @GetMapping("/")
     public String test() {
-        return "hello world";
+        return "test commit";
     }
 
 
