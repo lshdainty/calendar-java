@@ -1,4 +1,4 @@
-package com.lshdainty.board.controller.v1;
+package com.lshdainty.calendar.controller.v1;
 
 import java.util.*;
 

@@ -1,10 +1,10 @@
-package com.lshdainty.board;
+package com.lshdainty.calendar;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BoardApplicationTests {
+class calendarApplicationTests {
 
 	@Test
 	void contextLoads() {

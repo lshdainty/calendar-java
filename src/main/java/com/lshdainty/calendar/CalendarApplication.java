@@ -1,11 +1,11 @@
-package com.lshdainty.board;
+package com.lshdainty.calendar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BoardApplication {
+public class CalendarApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BoardApplication.class, args);
+		SpringApplication.run(CalendarApplication.class, args);
 	}
 }
