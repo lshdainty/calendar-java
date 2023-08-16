@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 // import org.springframework.beans.factory.annotation.*;
 
 @RestController("userController")
-@RequestMapping(value={"${apiPrefixV1}/user"})
+@RequestMapping(value={"${apiPrefixV1}/users"})
 public class UserController {
     @GetMapping("/")
     public String user() {

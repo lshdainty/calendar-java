@@ -10,12 +10,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(value={"${apiPrefixV1}"})
 public class ApiController {
     @GetMapping("/")
-    public String test() {
-        return "test commit";
+    public String hello() {
+        return "hello world";
     }
 
-    @GetMapping("/first")
-    public Map<String, Object> firstController() {
-        return null;
-    }
+    @GetMapping("/healthz")
+    public String healthz() {return "running";}
 }
