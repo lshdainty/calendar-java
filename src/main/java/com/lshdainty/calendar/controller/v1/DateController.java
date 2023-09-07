@@ -3,8 +3,6 @@ package com.lshdainty.calendar.controller.v1;
 import java.util.*;
 
 import org.springframework.web.bind.annotation.*;
-// import org.springframework.stereotype.*;
-// import org.springframework.beans.factory.annotation.*;
 
 @RestController("dateController")
 @RequestMapping(value={"${apiPrefixV1}/dates"})
