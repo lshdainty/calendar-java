@@ -2,11 +2,15 @@ package com.lshdainty.calendar.controller.v1;
 
 import java.util.*;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 @RestController("dateController")
 @RequestMapping(value={"${apiPrefixV1}/dates"})
 public class DateController {
+    private final Logger log = LoggerFactory.getLogger(this.getClass());
+
     @GetMapping("/")
     public String date() {
         return "date commit";
